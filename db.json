@@ -1,73 +1,184 @@
 {
-    "serviceProviders": [
-      {
-        "id": "2",
-        "name": "Bright Electric",
-        "service": "Electrical",
-        "location": "Los Angeles"
-      },
-      {
-        "id": "3",
-        "name": "Green Gardens",
-        "service": "Gardening",
-        "location": "Chicago",
-        "contact": "555-9012",
-        "rating": 4.2,
-        "description": "Professional gardening and landscaping services to enhance your outdoor space."
-      },
-      {
-        "id": "5",
-        "name": "Precision Painting",
-        "service": "Painting",
-        "location": "Phoenix",
-        "contact": "555-7890",
-        "rating": 4.6,
-        "description": "High-quality interior and exterior painting services with attention to detail."
-      },
-      {
-        "id": "6",
-        "name": "Reliable HVAC",
-        "service": "HVAC",
-        "location": "Philadelphia",
-        "contact": "555-1122",
-        "rating": 4.7,
-        "description": "Expert HVAC installation, repair, and maintenance services."
-      },
-      {
-        "id": "7",
-        "name": "Tile Masters",
-        "service": "Tile Installation",
-        "location": "San Antonio",
-        "contact": "555-3344",
-        "rating": 4.3,
-        "description": "Professional tile installation for kitchens, bathrooms, and more."
-      },
-      {
-        "id": "8",
-        "name": "Roofing Experts",
-        "service": "Roofing",
-        "location": "San Diego",
-        "contact": "555-5566",
-        "rating": 4.5,
-        "description": "Reliable roofing services for repairs, replacements, and installations."
-      },
-      {
-        "id": "9",
-        "name": "Appliance Repair Pro",
-        "service": "Appliance Repair",
-        "location": "Dallas",
-        "contact": "555-7788",
-        "rating": 4.8,
-        "description": "Fast and efficient appliance repair services for all major brands."
-      },
-      {
-        "id": "10",
-        "name": "Locksmith Services",
-        "service": "Locksmith",
-        "location": "San Jose",
-        "contact": "555-9900",
-        "rating": 4.4,
-        "description": "24/7 locksmith services for residential, commercial, and automotive needs."
-      }
-    ]
-  }
+  "serviceProviders": [
+    {
+      "id": 1,
+      "name": "Acme Plumbing",
+      "service": "Plumbing",
+      "location": "New York",
+      "contact": "555-1234",
+      "rating": 4.5,
+      "description": "Expert plumbing services for residential and commercial clients.",
+      "address": "123 Main St, New York, NY 10001",
+      "email": "info@acmeplumbing.com",
+      "website": "https://www.acmeplumbing.com"
+    },
+    {
+      "id": 2,
+      "name": "Bright Electric",
+      "service": "Electrical",
+      "location": "Los Angeles",
+      "contact": "555-5678",
+      "rating": 4.8,
+      "description": "Licensed electricians providing safe and reliable electrical solutions.",
+      "address": "456 Sunset Blvd, Los Angeles, CA 90028",
+      "email": "contact@brightelectric.net",
+      "website": "https://www.brightelectric.com"
+    },
+    {
+      "id": 3,
+      "name": "Green Gardens",
+      "service": "Gardening",
+      "location": "Chicago",
+      "contact": "555-9012",
+      "rating": 4.2,
+      "description": "Professional gardening and landscaping services to enhance your outdoor space.",
+      "address": "789 Oak Ave, Chicago, IL 60607",
+      "email": "services@greengardens.com",
+      "website": "https://www.greengardens.net"
+    },
+    {
+      "id": 4,
+      "name": "Swift Carpentry",
+      "service": "Carpentry",
+      "location": "Houston",
+      "contact": "555-3456",
+      "rating": 4.9,
+      "description": "Custom carpentry and woodworking services for homes and businesses.",
+      "address": "101 Pine Ln, Houston, TX 77002",
+      "email": "info@swiftcarpentry.com",
+      "website": "https://www.swiftcarpentry.com"
+    },
+    {
+      "id": 5,
+      "name": "Precision Painting",
+      "service": "Painting",
+      "location": "Phoenix",
+      "contact": "555-7890",
+      "rating": 4.6,
+      "description": "High-quality interior and exterior painting services with attention to detail.",
+      "address": "222 Cactus Rd, Phoenix, AZ 85016",
+      "email": "paint@precisionpainting.com",
+      "website": "https://www.precisionpainting.net"
+    },
+    {
+      "id": 6,
+      "name": "Reliable HVAC",
+      "service": "HVAC",
+      "location": "Philadelphia",
+      "contact": "555-1122",
+      "rating": 4.7,
+      "description": "Expert HVAC installation, repair, and maintenance services.",
+      "address": "333 Market St, Philadelphia, PA 19107",
+      "email": "hvac@reliablehvac.com",
+      "website": "https://www.reliablehvac.com"
+    },
+    {
+      "id": 7,
+      "name": "Tile Masters",
+      "service": "Tile Installation",
+      "location": "San Antonio",
+      "contact": "555-3344",
+      "rating": 4.3,
+      "description": "Professional tile installation for kitchens, bathrooms, and more.",
+      "address": "444 Alamo Pl, San Antonio, TX 78205",
+      "email": "tile@tilemasters.com",
+      "website": "https://www.tilemasters.net"
+    },
+    {
+      "id": 8,
+      "name": "Roofing Experts",
+      "service": "Roofing",
+      "location": "San Diego",
+      "contact": "555-5566",
+      "rating": 4.5,
+      "description": "Reliable roofing services for repairs, replacements, and installations.",
+      "address": "555 Ocean Dr, San Diego, CA 92109",
+      "email": "roofing@roofingexperts.com",
+      "website": "https://www.roofingexperts.com"
+    },
+    {
+      "id": 9,
+      "name": "Appliance Repair Pro",
+      "service": "Appliance Repair",
+      "location": "Dallas",
+      "contact": "555-7788",
+      "rating": 4.8,
+      "description": "Fast and efficient appliance repair services for all major brands.",
+      "address": "666 Commerce St, Dallas, TX 75202",
+      "email": "repair@appliancerepairpro.com",
+      "website": "https://www.appliancerepairpro.com"
+    },
+    {
+      "id": 10,
+      "name": "Locksmith Services",
+      "service": "Locksmith",
+      "location": "San Jose",
+      "contact": "555-9900",
+      "rating": 4.4,
+      "description": "24/7 locksmith services for residential, commercial, and automotive needs.",
+      "address": "777 Market St, San Jose, CA 95113",
+      "email": "locksmith@locksmithservices.com",
+      "website": "https://www.locksmithservices.net"
+    },
+    {
+      "id": 11,
+      "name": "Cleaning Crew",
+      "service": "Cleaning",
+      "location": "Miami",
+      "contact": "555-1357",
+      "rating": 4.7,
+      "description": "Thorough residential and commercial cleaning services.",
+      "address": "888 Biscayne Blvd, Miami, FL 33132",
+      "email": "clean@cleaningcrew.com",
+      "website": "https://www.cleaningcrew.com"
+    },
+    {
+      "id": 12,
+      "name": "Moving Masters",
+      "service": "Moving",
+      "location": "Seattle",
+      "contact": "555-2468",
+      "rating": 4.9,
+      "description": "Reliable and efficient moving services for local and long-distance moves.",
+      "address": "999 Pike St, Seattle, WA 98101",
+      "email": "move@movingmasters.com",
+      "website": "https://www.movingmasters.com"
+    },
+    {
+      "id": 13,
+      "name": "Pest Control Pros",
+      "service": "Pest Control",
+      "location": "Denver",
+      "contact": "555-1590",
+      "rating": 4.6,
+      "description": "Effective pest control solutions for homes and businesses.",
+      "address": "1010 16th St, Denver, CO 80202",
+      "email": "pest@pestcontrolpros.com",
+      "website": "https://www.pestcontrolpros.com"
+    },
+    {
+      "id": 14,
+      "name": "Landscaping Experts",
+      "service": "Landscaping",
+      "location": "Boston",
+      "contact": "555-8642",
+      "rating": 4.3,
+      "description": "Comprehensive landscaping services, from design to maintenance.",
+      "address": "1111 Newbury St, Boston, MA 02116",
+      "email": "landscaping@landscapingexperts.com",
+      "website": "https://www.landscapingexperts.net"
+    },
+    {
+      "id": 15,
+      "name": "Auto Repair Masters",
+      "service": "Auto Repair",
+      "location": "Atlanta",
+      "contact": "555-9753",
+      "rating": 4.8,
+      "description": "Expert auto repair services for all makes and models.",
+      "address": "1212 Peachtree St, Atlanta, GA 30309",
+      "email": "auto@autorepairmasters.com",
+      "website": "https://www.autorepairmasters.com"
+    }
+  ]
+}

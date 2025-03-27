@@ -32,20 +32,41 @@
             <tbody>
                 </tbody>
         </table>
-        <div id="editModal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; z-index: 1000;">
-            <h2>Edit Service Provider</h2>
-            <form id="editForm">
-                <input type="hidden" id="editId">
-                <label for="editName">Name:</label><br>
-                <input type="text" id="editName" name="name"><br><br>
-                <label for="editService">Service:</label><br>
-                <input type="text" id="editService" name="service"><br><br>
-                <label for="editLocation">Location:</label><br>
-                <input type="text" id="editLocation" name="location"><br><br>
-                <button type="submit">Save Changes</button>
-                <button type="button" onclick="closeModal()">Cancel</button>
-            </form>
+
+        <div id="profileModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeProfileModal()">&times;</span>
+                <h2>Profile Details</h2>
+                <div id="profileDetails"></div>
+            </div>
         </div>
+
+        <div id="bookingModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeBookingModal()">&times;</span>
+                <h2>Booking</h2>
+                <form id="bookingForm">
+                    <input type="hidden" id="bookingProviderId">
+                    <label for="bookingDate">Date:</label><br>
+                    <input type="date" id="bookingDate" name="bookingDate" required><br><br>
+                    <label for="bookingTime">Time:</label><br>
+                    <input type="time" id="bookingTime" name="bookingTime" required><br><br>
+                    <label for="bookingNotes">Notes:</label><br>
+                    <textarea id="bookingNotes" name="bookingNotes" rows="4" cols="50"></textarea><br><br>
+                    <button type="submit">Submit Booking</button>
+                </form>
+                <div id="bookingMessage" style="color: green; display: none;">Booking submitted successfully!</div>
+            </div>
+        </div>
+
+        <div id="contactsModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeContactsModal()">&times;</span>
+                <h2>Contact Information</h2>
+                <div id="contactDetails"></div>
+            </div>
+        </div>
+
     </main>
     <footer>
         <p>&copy; 2024 Service Providers Directory</p>
