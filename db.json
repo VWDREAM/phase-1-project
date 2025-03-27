@@ -1,0 +1,73 @@
+{
+    "serviceProviders": [
+      {
+        "id": "2",
+        "name": "Bright Electric",
+        "service": "Electrical",
+        "location": "Los Angeles"
+      },
+      {
+        "id": "3",
+        "name": "Green Gardens",
+        "service": "Gardening",
+        "location": "Chicago",
+        "contact": "555-9012",
+        "rating": 4.2,
+        "description": "Professional gardening and landscaping services to enhance your outdoor space."
+      },
+      {
+        "id": "5",
+        "name": "Precision Painting",
+        "service": "Painting",
+        "location": "Phoenix",
+        "contact": "555-7890",
+        "rating": 4.6,
+        "description": "High-quality interior and exterior painting services with attention to detail."
+      },
+      {
+        "id": "6",
+        "name": "Reliable HVAC",
+        "service": "HVAC",
+        "location": "Philadelphia",
+        "contact": "555-1122",
+        "rating": 4.7,
+        "description": "Expert HVAC installation, repair, and maintenance services."
+      },
+      {
+        "id": "7",
+        "name": "Tile Masters",
+        "service": "Tile Installation",
+        "location": "San Antonio",
+        "contact": "555-3344",
+        "rating": 4.3,
+        "description": "Professional tile installation for kitchens, bathrooms, and more."
+      },
+      {
+        "id": "8",
+        "name": "Roofing Experts",
+        "service": "Roofing",
+        "location": "San Diego",
+        "contact": "555-5566",
+        "rating": 4.5,
+        "description": "Reliable roofing services for repairs, replacements, and installations."
+      },
+      {
+        "id": "9",
+        "name": "Appliance Repair Pro",
+        "service": "Appliance Repair",
+        "location": "Dallas",
+        "contact": "555-7788",
+        "rating": 4.8,
+        "description": "Fast and efficient appliance repair services for all major brands."
+      },
+      {
+        "id": "10",
+        "name": "Locksmith Services",
+        "service": "Locksmith",
+        "location": "San Jose",
+        "contact": "555-9900",
+        "rating": 4.4,
+        "description": "24/7 locksmith services for residential, commercial, and automotive needs."
+      }
+    ]
+  }

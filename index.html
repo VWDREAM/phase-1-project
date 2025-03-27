@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Providers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Service Providers Directory</h1>
+    </header>
+    <main>
+        <input type="text" id="searchInput" placeholder="Search Providers...">
+        <table id="serviceTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Service</th>
+                    <th>Location</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+        <div id="editModal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; z-index: 1000;">
+            <h2>Edit Service Provider</h2>
+            <form id="editForm">
+                <input type="hidden" id="editId">
+                <label for="editName">Name:</label><br>
+                <input type="text" id="editName" name="name"><br><br>
+                <label for="editService">Service:</label><br>
+                <input type="text" id="editService" name="service"><br><br>
+                <label for="editLocation">Location:</label><br>
+                <input type="text" id="editLocation" name="location"><br><br>
+                <button type="submit">Save Changes</button>
+                <button type="button" onclick="closeModal()">Cancel</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Service Providers Directory</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
